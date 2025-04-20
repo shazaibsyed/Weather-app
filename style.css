@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #222;
+    
+}
+.card{
+width: 90%;
+max-width: 370px;
+background: linear-gradient(135deg, #fe1ddcd0, #5b548a );
+color: #fff;
+margin: 100px auto 0;
+border-radius: 20px;
+padding: 40px 35px;
+text-align: center;
+padding: 25px;
+
+}
+.search{
+display: flex;
+justify-content:center;
+align-items: center;
+width: 100%;
+} 
+.search input{
+    padding: 10px 15px;
+    font-size: 19px;
+    border-radius: 20px;
+    border: unset;
+    width: 100%;
+   
+} 
+.search input:focus{
+    border: unset;
+    outline: unset;
+}
+
+.search button{
+    position: relative;
+    overflow: hidden;
+    /* padding: 10px 12px ; */
+    border-radius: 50%;
+    border: unset;
+    outline: unset;
+    margin-left: 20px;
+    cursor: pointer;
+   background-color: #fff;
+    height: 43px;
+    width: 55px;
+
+i{
+    color: #27233c;
+    font-size: 20px;
+display: grid;
+place-items: center;
+}
+} 
+
+
+.weather-icon{
+width: 200px;
+}
+.weather h1{
+font-size: 50px;
+font-weight: 500;
+letter-spacing: 1px;
+}
+.weather h2{
+font-size: 25px;
+font-weight: 400;
+letter-spacing: 1px;
+
+}
+
+
+.details{
+    display: flex;
+    justify-content: space-around;
+}
+.col{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    font-weight: 600;
+    font-size: 14px;
+font-weight: 500;
+}
+.col img{
+    width: 35px;
+    margin-right: 11px;
+}
+.humidity,
+.speed{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    font-size: 18px;
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
